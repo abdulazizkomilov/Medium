@@ -62,7 +62,6 @@
                     {% for post in posts %}
                     <div class="card card-hover card-horizontal border-0 mb-5">
                         <div class="card-img-top position-relative">
-                            <img src="{{post.image.url}}" class="card-img-top" alt="">
                             <div class="position-absolute end-0 top-0 pt-3 pe-3 zindex-5">
                                 {% if request.user in post.like.all %}
                                 <a class="btn btn-icon btn-light btn-xs text-primary rounded-circle"
