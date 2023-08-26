@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-r*!_d(jlpr=0_w*$8jj&*a!k+1m%u2ra$5)e7@)idsuk2epfpf
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'medium.up.railway.app', '127.0.0.1',
+    'medium-blog.up.railway.app', '127.0.0.1',
 ]
 
 
@@ -39,9 +39,8 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'https://medium.up.railway.app',
-    'http://medium.up.railway.app',
-    'http://127:0.0.1:8000',
+    'https://medium-blog.up.railway.app',
+    'http://medium-blog.up.railway.app',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
